@@ -1,0 +1,31 @@
+baseURL = "https://atheenea.com/"
+locale = "en-us"
+title = "Atheenea"
+
+[params]
+  description = "iOS apps crafted with care."
+  author = "Eliane Rupp"
+  tagline = "iOS apps, crafted with care."
+
+[menu]
+  [[menu.main]]
+    name = "Apps"
+    url = "/#apps"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Privacy"
+    url = "/privacy/"
+    weight = 3
+  [[menu.main]]
+    name = "Legal"
+    url = "/legal/"
+    weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

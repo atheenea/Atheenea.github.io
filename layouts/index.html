@@ -1,0 +1,45 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <h1 class="hero-title">{{ site.Params.tagline }}</h1>
+    <p class="hero-sub">And attention to detail.</p>
+    <a href="/#apps" class="btn">See the apps</a>
+  </div>
+</section>
+
+<section class="apps-section" id="apps">
+  <div class="container">
+    <div class="apps-grid">
+      {{ range where (where site.RegularPages "Section" "apps") ".Params.tagline" "ne" nil }}
+      <a href="{{ .RelPermalink }}" class="app-card">
+        {{ if .Params.icon }}
+        {{ $icon := resources.Get .Params.icon }}
+        {{ if $icon }}
+        <div class="app-icon">
+          <img src="{{ $icon.RelPermalink }}" alt="{{ .Title }} icon" />
+        </div>
+        {{ end }}
+        {{ else }}
+        <div class="app-icon-placeholder"></div>
+        {{ end }}
+        <div class="app-card-body">
+          <h3 class="app-name">{{ .Title }}</h3>
+          <p class="app-tagline">{{ .Params.tagline }}</p>
+        </div>
+        <span class="app-arrow">→</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="about-teaser">
+  <div class="container about-teaser-inner">
+    <div class="about-teaser-text">
+      <h2>Made with intention.</h2>
+      <p>I am an indie iOS developer building apps I'd want to use myself: thoughtfully designed, privacy-first, and made to matter. </p>
+      <a href="/about/" class="btn btn-secondary">More about me</a>
+    </div>
+  </div>
+</section>
+{{ end }}

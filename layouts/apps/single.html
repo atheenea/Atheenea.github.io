@@ -1,0 +1,36 @@
+{{ define "main" }}
+<article class="app-page">
+  <section class="app-hero container">
+    <div class="app-hero-icon">
+      {{ with .Params.icon }}
+      {{ $icon := resources.Get . }}
+      {{ if $icon }}<img src="{{ $icon.RelPermalink }}" alt="{{ $.Title }} icon" />{{ end }}
+      {{ end }}
+    </div>
+    <div class="app-hero-text">
+      <h1>{{ .Title }}</h1>
+      <p class="app-hero-tagline">{{ .Params.tagline }}</p>
+      {{ with .Params.appstore }}
+      <a href="{{ . }}" class="btn" target="_blank" rel="noopener">Download on the App Store</a>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="app-body container prose">
+    {{ .Content }}
+  </section>
+
+  {{ with .Params.screenshots }}
+  <section class="app-screenshots container">
+    <h2 class="screenshots-title">Screenshots</h2>
+    <div class="screenshots-grid">
+      {{ range . }}
+      {{ $shot := resources.Get . }}
+      {{ if $shot }}<img src="{{ $shot.RelPermalink }}" alt="Screenshot" class="screenshot-img" />{{ end }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+</article>
+{{ end }}

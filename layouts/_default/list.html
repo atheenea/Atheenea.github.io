@@ -1,0 +1,23 @@
+{{ define "main" }}
+<section class="page-content container">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+  </header>
+  <div class="apps-grid">
+    {{ range .Pages }}
+    <a href="{{ .RelPermalink }}" class="app-card">
+      {{ with .Params.icon }}
+      <div class="app-icon"><img src="{{ . }}" alt="{{ $.Title }} icon" /></div>
+      {{ else }}
+      <div class="app-icon-placeholder"></div>
+      {{ end }}
+      <div class="app-card-body">
+        <h3 class="app-name">{{ .Title }}</h3>
+        <p class="app-tagline">{{ .Params.tagline }}</p>
+      </div>
+      <span class="app-arrow">→</span>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

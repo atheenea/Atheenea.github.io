@@ -1,0 +1,59 @@
+<header class="site-header">
+  <nav class="nav container">
+    <a href="/" class="nav-logo">
+      {{ $logo := resources.Get "images/Atheenea_Name.png" }}
+      {{ if $logo }}<img src="{{ $logo.RelPermalink }}" alt="Atheenea" class="nav-logo-img" />{{ end }}
+    </a>
+    <ul class="nav-links">
+      {{ range site.Menus.main }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<div class="nav-drawer" id="nav-drawer" aria-hidden="true">
+  <button class="nav-drawer-close" aria-label="Close menu">✕</button>
+  <ul class="nav-drawer-links">
+    {{ range site.Menus.main }}
+    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{ end }}
+  </ul>
+</div>
+<div class="nav-overlay" id="nav-overlay"></div>
+
+<script>
+  (function() {
+    var toggle = document.querySelector('.nav-toggle');
+    var drawer = document.getElementById('nav-drawer');
+    var overlay = document.getElementById('nav-overlay');
+    var close = document.querySelector('.nav-drawer-close');
+
+    function openMenu() {
+      drawer.classList.add('is-open');
+      overlay.classList.add('is-visible');
+      toggle.setAttribute('aria-expanded', 'true');
+      drawer.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeMenu() {
+      drawer.classList.remove('is-open');
+      overlay.classList.remove('is-visible');
+      toggle.setAttribute('aria-expanded', 'false');
+      drawer.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }
+
+    toggle.addEventListener('click', openMenu);
+    close.addEventListener('click', closeMenu);
+    overlay.addEventListener('click', closeMenu);
+
+    drawer.querySelectorAll('a').forEach(function(a) {
+      a.addEventListener('click', closeMenu);
+    });
+  })();
+</script>
