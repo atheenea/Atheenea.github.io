@@ -338,7 +338,7 @@ img { display: block; max-width: 100%; }
 .prose li { margin-bottom: 6px; }
 
 /* ─── Screenshots ───────────────────────────────────────────── */
-.app-screenshots { padding: 16px 0 60px; }
+.app-screenshots { padding-block: 16px 60px; }
 
 .screenshots-title {
   font-size: 24px;
@@ -358,6 +358,26 @@ img { display: block; max-width: 100%; }
   width: auto;
   border-radius: 20px;
   box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+}
+
+@media (max-width: 640px) {
+  .screenshots-grid {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-padding-left: 24px;
+    padding-bottom: 12px;
+    /* hide scrollbar visually but keep it functional */
+    scrollbar-width: none;
+  }
+  .screenshots-grid::-webkit-scrollbar { display: none; }
+
+  .screenshot-img {
+    flex-shrink: 0;
+    height: 420px;
+    scroll-snap-align: start;
+  }
 }
 
 /* ─── Footer ─────────────────────────────────────────────────── */
