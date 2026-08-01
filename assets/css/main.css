@@ -213,7 +213,11 @@ img { display: block; max-width: 100%; }
   flex-shrink: 0;
 }
 
-.app-card-body { flex: 1; min-width: 0; }
+.app-card-body {
+  flex: 1;
+  min-width: 0;
+  height: 80px;
+}
 
 .app-name {
   font-size: 17px;
@@ -385,7 +389,7 @@ img { display: block; max-width: 100%; }
   }
 
   .screenshot-img {
-    max-height: 60vh;
+    max-height: 75vh;
     width: auto;
     max-width: 100%;
     height: auto;
