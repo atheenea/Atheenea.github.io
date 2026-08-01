@@ -12,7 +12,7 @@
   --radius:    16px;
   --font:      'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --max-w:     1100px;
-  --nav-h:     180px;
+  --nav-h:     100px;
 }
 
 html {
@@ -97,11 +97,11 @@ img { display: block; max-width: 100%; }
 }
 
 .nav-logo-img {
-  height: 200px;
+  height: 28px;
   width: auto;
   display: block;
   mix-blend-mode: multiply;
-  transform: translateX(-18px);
+  transform: translateX(-5px);
 }
 
 .footer-brand {
@@ -347,7 +347,8 @@ img { display: block; max-width: 100%; }
   margin-bottom: 24px;
 }
 
-.screenshots-grid {
+/* Desktop: wrap naturally */
+.screenshots-carousel {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
@@ -357,33 +358,68 @@ img { display: block; max-width: 100%; }
   height: 500px;
   width: auto;
   border-radius: 20px;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+  border: 2px solid var(--border);
 }
 
+.carousel-dots { display: none; }
+
+/* Mobile: single-item snap carousel */
 @media (max-width: 640px) {
-  .screenshots-grid {
+  .screenshots-carousel {
     flex-wrap: nowrap;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
-    scroll-padding-left: 24px;
-    padding-bottom: 12px;
-    /* hide scrollbar visually but keep it functional */
     scrollbar-width: none;
+    gap: 0;
   }
-  .screenshots-grid::-webkit-scrollbar { display: none; }
+  .screenshots-carousel::-webkit-scrollbar { display: none; }
+
+  .screenshot-slide {
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8px;
+  }
 
   .screenshot-img {
-    flex-shrink: 0;
-    height: 420px;
-    scroll-snap-align: start;
+    max-height: 60vh;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+  }
+
+  .carousel-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1.5px solid var(--accent);
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    transition: background 0.2s, transform 0.2s;
+  }
+
+  .carousel-dot.is-active {
+    background: var(--accent);
+    border-color: var(--accent);
+    transform: scale(1.25);
   }
 }
 
 /* ─── Footer ─────────────────────────────────────────────────── */
 .site-footer {
-  border-top: 1px solid var(--border);
-  padding: 48px 0 40px;
+  padding: 43px 0 35px;
   background: rgba(210,190,242,0.55);
 }
 
@@ -517,6 +553,5 @@ img { display: block; max-width: 100%; }
     padding-top: 48px;
   }
 
-  .footer-inner { flex-direction: column; align-items: flex-start; }
   .footer-links { margin-left: 0; }
 }

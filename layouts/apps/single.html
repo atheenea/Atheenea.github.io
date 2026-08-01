@@ -22,13 +22,42 @@
 
   {{ with .Params.screenshots }}
   <section class="app-screenshots container">
-    <div class="screenshots-grid">
+    <div class="screenshots-carousel" id="screenshots-carousel">
       {{ range . }}
       {{ $shot := resources.Get . }}
-      {{ if $shot }}<img src="{{ $shot.RelPermalink }}" alt="Screenshot" class="screenshot-img" />{{ end }}
+      {{ if $shot }}<div class="screenshot-slide"><img src="{{ $shot.RelPermalink }}" alt="Screenshot" class="screenshot-img" /></div>{{ end }}
       {{ end }}
     </div>
+    <div class="carousel-dots" id="carousel-dots"></div>
   </section>
+  <script>
+    (function () {
+      var carousel = document.getElementById('screenshots-carousel');
+      var dotsContainer = document.getElementById('carousel-dots');
+      var imgs = carousel.querySelectorAll('.screenshot-slide');
+      if (imgs.length < 2) return;
+
+      // Build dots
+      imgs.forEach(function (_, i) {
+        var dot = document.createElement('button');
+        dot.className = 'carousel-dot' + (i === 0 ? ' is-active' : '');
+        dot.setAttribute('aria-label', 'Screenshot ' + (i + 1));
+        dot.addEventListener('click', function () {
+          carousel.scrollTo({ left: i * carousel.clientWidth, behavior: 'smooth' });
+        });
+        dotsContainer.appendChild(dot);
+      });
+
+      // Update active dot on scroll
+      var dots = dotsContainer.querySelectorAll('.carousel-dot');
+      carousel.addEventListener('scroll', function () {
+        var idx = Math.round(carousel.scrollLeft / carousel.clientWidth);
+        dots.forEach(function (d, i) {
+          d.classList.toggle('is-active', i === idx);
+        });
+      }, { passive: true });
+    })();
+  </script>
   {{ end }}
 
 </article>
