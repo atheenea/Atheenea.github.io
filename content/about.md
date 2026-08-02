@@ -6,11 +6,18 @@ title: "About"
 
 I am a health scientist with a focus on health 
 behaviour and management. After several years 
-working in health promotion, I decided to follow 
-my longtime calling and build things myself. 
-Coding is so rewarding: it's not easy to learn, 
-but when you do, it opens the door to a huge and 
-creative world. And the learning never stops.
+working in health promotion, I wanted to go 
+further and put tools directly into people's 
+hands that make navigating health a little 
+clearer, a little simpler, and a little more 
+in their control. Digital apps, built with 
+genuine clinical understanding, felt like the 
+most direct way to do that. And if I'm honest: 
+I had always wanted to build something myself.
+
+So I decided to learn to code. It's not easy, 
+but when you do, it opens the door to a huge 
+and creative world. And the learning never stops.
 
 My first app, NextBook, came from a simple personal need: a book release tracker that didn't exist yet. It became my learning ground, from first lines of code to the App Store. But health is where my heart has always been. As a health scientist, I bring a science background to every product decision, which means I care as much about getting things right as making them beautiful.
 
