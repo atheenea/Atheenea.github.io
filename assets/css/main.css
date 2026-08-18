@@ -268,7 +268,8 @@ img { display: block; max-width: 100%; }
   padding: 80px 24px 60px;
 }
 
-.app-hero-icon img {
+.app-hero-icon img,
+.app-hero-icon .app-icon-placeholder {
   width: 120px;
   height: 120px;
   border-radius: 26px;

@@ -6,13 +6,13 @@ appstore: "https://apps.apple.com/app/idXXXXXXXX"
 privacy: "/apps/nextbook/privacy/"
 screenshots:
   - "images/apps/nextbook/screenshots/nextbook-screenshot-2.png"
-  - "images/apps/nextbook/screenshots/nextbook-screenshot-4.png"
+  - "images/apps/nextbook/screenshots/nextbook-screenshot-5.png"
 draft: false
 ---
 
 ### Why I built NextBook
 
-I love reading books. But I kept missing release dates, maintaining lists by hand, checking websites, forgetting anyway. No existing app solved this simply. So I built NextBook.
+I love reading books and often cannot wait for a new book release or a series to continue. However, keeping track of upcoming books turned out to be a challenge. I was maintaining lists by hand and checking platforms and websites for release dates, which was unsatisfying and needed a lot of maintenance. Most importantly, I was missing a notification system, that would have helped me keeping up with releases. No existing platform or app solved this problem, so I built NextBook.
 
 ### How it works
 

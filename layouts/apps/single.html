@@ -2,10 +2,10 @@
 <article class="app-page">
   <section class="app-hero container">
     <div class="app-hero-icon">
-      {{ with .Params.icon }}
-      {{ $icon := resources.Get . }}
-      {{ if $icon }}<img src="{{ $icon.RelPermalink }}" alt="{{ $.Title }} icon" />{{ end }}
-      {{ end }}
+      {{ if .Params.icon }}
+      {{ $icon := resources.Get .Params.icon }}
+      {{ if $icon }}<img src="{{ $icon.RelPermalink }}" alt="{{ .Title }} icon" />{{ else }}<div class="app-icon-placeholder"></div>{{ end }}
+      {{ else }}<div class="app-icon-placeholder"></div>{{ end }}
     </div>
     <div class="app-hero-text">
       <h1>{{ .Title }}</h1>
