@@ -21,12 +21,12 @@ NextBook is a personal book release tracker that notifies you on the day your mo
 ### What you get
 
 - **Release day notifications**: get notified on the exact day a book or audiobook releases
-- **Countdown to next release**: see exactly how many days until your next read
+- **Countdown to next release**: see how many days until your next read
 - **Your data stays on your device**: no account needed, always private
 
 ### Privacy
 
-Your data lives on your device. No selling, no sharing, no exceptions.
+Your data lives on your device. No selling, no sharing.
 
 [Privacy Policy](/apps/nextbook/privacy/)
 

@@ -18,7 +18,7 @@ a symptom tracker. I wanted something different:
 focused, serious, and built around the woman 
 who just wants to understand her body, not 
 track her fertility. I looked for that app. 
-I couldn't find it. So I'm building it.
+I couldn't find it, so I'm building it.
 
 ### What you get
 
@@ -35,7 +35,7 @@ No selling, no sharing. That said, women remain
 underrepresented in health research and Aeva 
 may in future give users the option to 
 contribute anonymised data to women's health 
-research. Always optional. Always transparent.
+research. Always optional and transparent.
 
 Privacy Policy *(A full privacy policy will be published before launch)*
 <!-- [Privacy Policy](/apps/aeva/privacy/) -->

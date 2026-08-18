@@ -18,6 +18,10 @@ I had always wanted to build something myself.
 So I decided to learn to code. It's not easy, 
 but when you do, it opens the door to a huge 
 and creative world. And the learning never stops.
+I am also someone who constantly looks for ways 
+to do things better, more intelligently, more 
+simply, more logically. Building digital tools 
+turned out to be the perfect expression of that.
 
 My first app, NextBook, came from a simple personal need: a book release tracker that didn't exist yet. It became my learning ground, from first lines of code to the App Store. But health is where my heart has always been. As a health scientist, I bring a science background to every product decision, which means I care as much about getting things right as making them beautiful.
 
