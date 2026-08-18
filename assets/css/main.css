@@ -304,8 +304,7 @@ img { display: block; max-width: 100%; }
 
 /* ─── Generic Page ──────────────────────────────────────────── */
 .page-content {
-  padding: 80px 24px;
-  max-width: 720px;
+  padding-block: 80px;
 }
 
 .page-header { margin-bottom: 48px; }
