@@ -27,16 +27,17 @@ My first app, NextBook, came from a simple personal need: a book release tracker
 
 ## Why Atheenea?
 
-Atheenea is inspired by Athena, the Greek goddess of wisdom, knowledge and craft but also of courage and independence. As a woman making her way in tech, I recognised something of myself in her. I chose this name because it reflects both what I do and who I am: someone who builds intelligent, helpful tools and carves out her own space to do it.
+Atheenea takes its name from Athena, goddess of wisdom, knowledge, craft and independence. She felt like the right archetype for a woman in tech who wants to build something intelligent and genuinely useful on her own terms.
 
 Atheenea is my personal studio and a space for everything I create independently. It's just me, my ideas, and good coffee.
 
 ## What I work with
 
 - Swift & SwiftUI
-- A strong belief in privacy because your data belongs to you
-- A (health) science background that shapes every product decision
-- A conviction that good design and good science are not opposites
+- Xcode
+- SwiftData
+
+And a strong belief in privacy because your data belongs to you.
 
 ## Get in touch
 
