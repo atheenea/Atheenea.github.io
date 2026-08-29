@@ -43,3 +43,5 @@ And a strong belief in privacy because your data belongs to you.
 
 Feel free to reach out (contact at atheenea dot com) with feedback, questions, or just to say hello.
 
+For updates about future apps, follow along on [Instagram](https://www.instagram.com/atheenea_studio).
+
