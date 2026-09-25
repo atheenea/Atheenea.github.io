@@ -1,6 +1,8 @@
 ---
 title: "NextBook"
 tagline: "Never miss a release date again."
+weight: 1
+status: "coming_soon"
 icon: "images/apps/nextbook/nextbook-icon.png"
 appstore: "https://apps.apple.com/app/idXXXXXXXX"
 privacy: "/apps/nextbook/privacy/"

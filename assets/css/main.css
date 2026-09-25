@@ -174,22 +174,22 @@ img { display: block; max-width: 100%; }
 
 .apps-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 35px;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 24px;
   justify-items: center;
-  max-width: 700px;
+  max-width: 860px;
   margin-inline: auto;
 }
 
 .app-card {
   display: flex;
   align-items: center;
-  width: 320px;
+  width: 100%;
   gap: 16px;
   background: rgba(255,252,255,0.70);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 24px;
+  padding: 24px 24px 20px;
   transition: box-shadow 0.2s, transform 0.2s;
   cursor: pointer;
 }
@@ -216,7 +216,6 @@ img { display: block; max-width: 100%; }
 .app-card-body {
   flex: 1;
   min-width: 0;
-  height: 80px;
 }
 
 .app-name {
@@ -234,6 +233,25 @@ img { display: block; max-width: 100%; }
   color: var(--fg-muted);
   font-size: 18px;
   flex-shrink: 0;
+}
+
+.app-status {
+  display: inline-block;
+  margin-top: 7px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 100px;
+}
+.app-status--soon {
+  background: rgba(91,76,255,0.10);
+  color: var(--accent);
+}
+.app-status--dev {
+  background: rgba(107,96,128,0.12);
+  color: var(--fg-muted);
 }
 
 /* ─── About Teaser ──────────────────────────────────────────── */

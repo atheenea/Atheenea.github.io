@@ -10,7 +10,7 @@
 <section class="apps-section" id="apps">
   <div class="container">
     <div class="apps-grid">
-      {{ range where (where site.RegularPages "Section" "apps") ".Params.tagline" "ne" nil }}
+      {{ range sort (where (where site.RegularPages "Section" "apps") ".Params.tagline" "ne" nil) "Params.weight" }}
       <a href="{{ .RelPermalink }}" class="app-card">
         {{ if .Params.icon }}
         {{ $icon := resources.Get .Params.icon }}
@@ -25,6 +25,8 @@
         <div class="app-card-body">
           <h3 class="app-name">{{ .Title }}</h3>
           <p class="app-tagline">{{ .Params.tagline }}</p>
+          {{ if eq .Params.status "coming_soon" }}<span class="app-status app-status--soon">Available soon</span>{{ end }}
+          {{ if eq .Params.status "in_development" }}<span class="app-status app-status--dev">In development</span>{{ end }}
         </div>
         <span class="app-arrow">→</span>
       </a>
@@ -37,7 +39,7 @@
   <div class="container about-teaser-inner">
     <div class="about-teaser-text">
       <h2>Made with intention.</h2>
-      <p>I am a woman and indie iOS developer building apps I'd want to use myself: thoughtfully designed, privacy-first, and made to matter. </p>
+      <p>I am an indie iOS developer building apps I'd want to use myself: thoughtfully designed, privacy-first, and made to matter. </p>
       <a href="/about/" class="btn btn-secondary">More about me</a>
     </div>
   </div>
