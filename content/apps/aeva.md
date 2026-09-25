@@ -12,7 +12,10 @@ draft: false
 
 ### Why I'm building Aeva
 
-Yes, there are already cycle tracking apps out there. But some of them have grown into sprawling platforms with a symptom tracker somewhere in there. Others simply don't go deep enough. I wanted an app with a focus on easy and detailed, meaningful symptom tracking. An app built around the woman who just wants to understand her body. I couldn't find one, so I'm building it.
+Yes, there are already cycle tracking apps out there. But some of them have lost focus and
+bury the symptom tracker under fertility 
+tools, pregnancy features, community forums 
+and endless articles. Others simply don't go deep enough. I wanted an app with a focus on easy and detailed, meaningful symptom tracking. An app built around the woman who just wants to understand her body. I couldn't find one, so I'm building it.
 
 ### What you get
 
