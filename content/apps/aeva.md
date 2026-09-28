@@ -40,4 +40,4 @@ Privacy Policy *(A full privacy policy will be published before launch)*
 
 ### Stay in the loop
 
-Aeva is currently in development. Follow along on Instagram for updates.
+Aeva is currently in development. Follow along on [Instagram](https://www.instagram.com/atheenea_studio) for updates.
