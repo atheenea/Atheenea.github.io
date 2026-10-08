@@ -20,10 +20,8 @@ I love reading books and often cannot wait for a new book release or a series to
 
 Add the books you're excited about, set your 
 preferred notification time, and let NextBook 
-do the rest. You'll get notified (even with a baddge) on release day 
-and the book stays on your watchlist until 
-you've got it. Once you've bought or borrowed 
-it, simply check it off and it moves to your 
+do the rest. You'll get notified, even with a badge, on release day. Once you've bought or borrowed 
+it, simply check it off in the watchlist and it moves to your 
 archive. Nothing gets forgotten or lost.
 
 ### What you get
