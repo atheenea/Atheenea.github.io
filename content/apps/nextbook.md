@@ -30,11 +30,11 @@ archive. Nothing gets forgotten or lost.
 
 - **Release day notifications**: get notified on the exact day a book or audiobook releases
 - **Countdown to next release**: see how many days until your next read
-- **Watchlist** — track all your upcoming 
+- **Watchlist**: track all your upcoming 
   releases in one place
-- **Archive** — check off books you've bought 
+- **Archive**: check off books you've bought 
   or borrowed so nothing gets forgotten
-- **Notes** — add a quick note to any book, 
+- **Notes**: add a quick note to any book, 
   for example if no release date is confirmed yet
 - **Your data stays on your device**: no account needed, always private
 
