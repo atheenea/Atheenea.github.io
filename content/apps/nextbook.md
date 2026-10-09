@@ -7,8 +7,10 @@ icon: "images/apps/nextbook/nextbook-icon.png"
 appstore: "https://apps.apple.com/app/idXXXXXXXX"
 privacy: "/apps/nextbook/privacy/"
 screenshots:
-  - "images/apps/nextbook/screenshots/nextbook-screenshot-2.png"
-  - "images/apps/nextbook/screenshots/nextbook-screenshot-5.png"
+  - "images/apps/nextbook/screenshots/1.png"
+  - "images/apps/nextbook/screenshots/2.png"
+  - "images/apps/nextbook/screenshots/3.png"
+  - "images/apps/nextbook/screenshots/4.png"
 draft: false
 ---
 

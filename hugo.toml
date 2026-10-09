@@ -3,9 +3,7 @@ locale = "en-us"
 title = "Atheenea"
 
 [params]
-  description = "Atheenea — a one-woman iOS studio building 
-privacy-first health apps and tools, 
-crafted with clinical understanding."
+  description = "Atheenea — a one-woman iOS studio building privacy-first health apps and tools, crafted with clinical understanding."
   author = "Eliane Rupp"
   tagline = "iOS apps, crafted with care."
 
