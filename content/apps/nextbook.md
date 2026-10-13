@@ -24,7 +24,10 @@ Add the books you're excited about, set your
 preferred notification time, and let NextBook 
 do the rest. You'll get notified, even with a badge, on release day. Once you've bought or borrowed 
 it, simply check it off in the watchlist and it moves to your 
-archive. Nothing gets forgotten or lost.
+archive. Nothing gets forgotten or lost. And you choose exactly what goes on 
+your watchlist: no automated feeds or 
+algorithm, just the books you 
+actually want to track.
 
 ### What you get
 
