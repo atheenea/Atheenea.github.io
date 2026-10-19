@@ -5,7 +5,7 @@ url: "/apps/nextbook/privacy/"
 hide_icon: true
 ---
 
-Last updated: June 2026
+Last updated: October 2026
 
 Applies to: NextBook 1.0
 
