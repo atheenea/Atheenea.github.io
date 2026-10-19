@@ -2,6 +2,7 @@
 title: "Aeva — Privacy Policy"
 subtitle: "Privacy details will be published before launch."
 url: "/apps/aeva/privacy/"
+hide_icon: true
 ---
 
 Last updated: June 2026

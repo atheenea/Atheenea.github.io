@@ -2,6 +2,7 @@
 title: "NextBook — Privacy Policy"
 subtitle: "Your reading list stays on your device."
 url: "/apps/nextbook/privacy/"
+hide_icon: true
 ---
 
 Last updated: June 2026

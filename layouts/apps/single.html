@@ -1,12 +1,14 @@
 {{ define "main" }}
 <article class="app-page">
   <section class="app-hero container">
+    {{ if not .Params.hide_icon }}
     <div class="app-hero-icon">
       {{ if .Params.icon }}
       {{ $icon := resources.Get .Params.icon }}
       {{ if $icon }}<img src="{{ $icon.RelPermalink }}" alt="{{ .Title }} icon" />{{ else }}<div class="app-icon-placeholder"></div>{{ end }}
       {{ else }}<div class="app-icon-placeholder"></div>{{ end }}
     </div>
+    {{ end }}
     <div class="app-hero-text">
       <h1>{{ .Title }}</h1>
       <p class="app-hero-tagline">{{ .Params.tagline }}</p>

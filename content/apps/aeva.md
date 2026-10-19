@@ -1,7 +1,6 @@
 ---
 title: "Aeva"
 tagline: "Track. Anticipate. Plan."
-#tagline: "Track. Anticipate. Plan. Advocate."
 weight: 2
 status: "in_development"
 icon: ""
