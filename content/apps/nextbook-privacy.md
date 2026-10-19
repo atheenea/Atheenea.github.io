@@ -15,7 +15,7 @@ NextBook collects no personal data. There are no user accounts, no sign-ins, and
 
 ## What stays on your device
 
-All data you enter (book titles, release dates, and notification preferences) is stored locally on your device using iOS system storage. It never leaves your device.
+All data you enter (book authors and titles, audiobook authors and titles, release dates, notes and notification preferences) is stored locally on your device using iOS system storage. It never leaves your device.
 
 ## Deleting your data
 
