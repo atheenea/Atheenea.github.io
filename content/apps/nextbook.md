@@ -20,25 +20,16 @@ I love reading books and often cannot wait for a new book release or a series to
 
 ### How it works
 
-Add the books you're excited about, set your 
-preferred notification time, and let NextBook 
-do the rest. You'll get notified, even with a badge, on release day. Once you've bought or borrowed 
-it, simply check it off in the watchlist and it moves to your 
-archive. Nothing gets forgotten or lost. And you choose exactly what goes on 
-your watchlist: no automated feeds or 
-algorithm, just the books you 
-actually want to track.
+Add the books and audiobooks you’re excited about, set your preferred notification time, and let NextBook do the rest. You’ll get notified on release day. Buy it, borrow it, or wait for a sale: the book stays on your list until you’ve got it. Once you have it, check it off and it moves to your archive. Nothing gets forgotten or lost. And you choose exactly what goes on your watchlist: no automated feeds or algorithm, just the books you actually want to track.
 
 ### What you get
 
 - **Release day notifications**: get notified on the exact day a book or audiobook releases
-- **Countdown to next release**: see how many days until your next read
-- **Watchlist**: track all your upcoming 
-  releases in one place
-- **Archive**: check off books you've bought 
-  or borrowed so nothing gets forgotten
-- **Notes**: add a quick note to any book, 
-  for example if no release date is confirmed yet
+- **Home screen at a glance**: a countdown to your next release, plus counters for books that need your attention
+- **Watchlist**: your books stay on your list until you've got them, whether you buy them, borrow them, or wait for a sale
+- **Archive**: check off books once you have them, so nothing gets forgotten
+- **No release date yet?** Add the book anyway and pick a day to be reminded to check back
+- **Notes**: add a quick note to any book
 - **Your data stays on your device**: no account needed, always private
 
 ### Privacy
