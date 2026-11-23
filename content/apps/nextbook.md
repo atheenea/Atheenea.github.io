@@ -28,6 +28,7 @@ Add the books and audiobooks you’re excited about, set your preferred notifica
 - **Home screen at a glance**: a countdown to your next release, plus counters for books that need your attention
 - **Watchlist**: your books stay on your list until you've got them, whether you buy them, borrow them, or wait for a sale
 - **Archive**: check off books once you have them, so nothing gets forgotten
+- **Search**: find any book by title, author or note
 - **No release date yet?** Add the book anyway and pick a day to be reminded to check back
 - **Notes**: add a quick note to any book
 - **Your data stays on your device**: no account needed, always private
