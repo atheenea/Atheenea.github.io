@@ -1,6 +1,6 @@
 ---
 title: "NextBook"
-tagline: "Book release reminder"
+tagline: "Book release reminder."
 hero_tagline: "Every release, remembered."
 weight: 1
 status: "coming_soon"
