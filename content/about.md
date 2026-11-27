@@ -41,7 +41,7 @@ And a strong belief in privacy because your data belongs to you.
 
 ## Get in touch
 
-Feel free to reach out (contact at atheenea dot com) with feedback, questions, or just to say hello.
+Feel free to reach out (contact at atheenea dot com) with feedback or questions.
 
 For updates about the apps, follow along on [Instagram](https://www.instagram.com/atheenea_studio).
 
