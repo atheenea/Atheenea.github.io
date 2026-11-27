@@ -1,6 +1,7 @@
 ---
 title: "NextBook"
-tagline: "Every release, remembered."
+tagline: "Book release tracker"
+hero_tagline: "Every release, remembered."
 weight: 1
 status: "coming_soon"
 icon: "images/apps/nextbook/nextbook-icon.png"

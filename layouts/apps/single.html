@@ -11,7 +11,7 @@
     {{ end }}
     <div class="app-hero-text">
       <h1>{{ .Title }}</h1>
-      <p class="app-hero-tagline">{{ .Params.tagline }}</p>
+      <p class="app-hero-tagline">{{ with .Params.hero_tagline }}{{ . }}{{ else }}{{ .Params.tagline }}{{ end }}</p>
       {{ with .Params.appstore }}
       <a href="{{ . }}" class="btn" target="_blank" rel="noopener">Download on the App Store</a>
       {{ end }}
