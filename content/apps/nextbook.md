@@ -1,7 +1,6 @@
 ---
 title: "NextBook"
-tagline: "Book release tracker"
-hero_tagline: "Every release, remembered."
+tagline: "Every release, remembered."
 weight: 1
 status: "coming_soon"
 icon: "images/apps/nextbook/nextbook-icon.png"
@@ -15,13 +14,15 @@ screenshots:
 draft: false
 ---
 
+### How it works
+
+NextBook is a book release tracker for iPhone. Add the books and audiobooks you’re excited about, set your preferred notification time, and let NextBook do the rest. You’ll get notified on release day. Buy it, borrow it, or wait for a sale: the book stays on your list until you’ve got it. Once you have it, check it off and it moves to your archive. Nothing gets forgotten or lost. And you choose exactly what goes on your watchlist: no automated feeds or algorithm, just the books you actually want to track.
+
+
 ### Why I built NextBook
 
 I love reading books and often cannot wait for a new book release or a series to continue. However, keeping track of upcoming books turned out to be a challenge. I was maintaining lists by hand and checking platforms and websites for release dates, which was unsatisfying and time-consuming. Most importantly, I was missing a notification system, that would have helped me keeping up with releases. No existing platform or app solved this simply, so I built NextBook.
 
-### How it works
-
-Add the books and audiobooks you’re excited about, set your preferred notification time, and let NextBook do the rest. You’ll get notified on release day. Buy it, borrow it, or wait for a sale: the book stays on your list until you’ve got it. Once you have it, check it off and it moves to your archive. Nothing gets forgotten or lost. And you choose exactly what goes on your watchlist: no automated feeds or algorithm, just the books you actually want to track.
 
 ### What you get
 
@@ -32,11 +33,10 @@ Add the books and audiobooks you’re excited about, set your preferred notifica
 - **Search**: find any book by title, author or note
 - **No release date yet?** Add the book anyway and pick a day to be reminded to check back
 - **Notes**: add a quick note to any book
-- **Your data stays on your device**: no account needed, always private
 
 ### Privacy
 
-Your data lives on your device. No selling, no sharing.
+Your data lives only on your device so no account is needed.
 
 [Privacy Policy](/apps/nextbook/privacy/)
 
